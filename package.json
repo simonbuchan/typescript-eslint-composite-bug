@@ -1,0 +1,19 @@
+{
+  "name": "typescript-eslint-bug",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.16.1",
+    "@typescript-eslint/parser": "^7.16.1",
+    "eslint": "^8.57.0",
+    "typescript": "~5.5.3"
+  },
+  "volta": {
+    "node": "20.15.1",
+    "pnpm": "9.5.0"
+  }
+}
